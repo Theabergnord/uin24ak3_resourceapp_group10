@@ -1,5 +1,5 @@
 /*Importerer font*/
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 
 /*#root {
   max-width: 1280px;
@@ -25,7 +25,7 @@
 
 
 
-/*Lager variabler til fargene */
+/*Lager variabler til fargene 
 :root {
     --darkblue: #2A324B;
     --blue: #58699D;
@@ -33,7 +33,7 @@
     --white: #fff;
 }
 
-/*Styler body elementet og gjør det responsivt. */
+/*Styler body elementet og gjør det responsivt. 
 body{
     background-color: var(--grey);
     font-family: 'Rubik', 'sans-serif';
@@ -42,7 +42,7 @@ body{
     justify-content: space-around;
 }
 
-/*Styler div elementet med id-en container med farge, størrelser og margin */
+/*Styler div elementet med id-en container med farge, størrelser og margin 
 #container{
     max-width: 944px;
     min-height: 300px;
@@ -54,7 +54,7 @@ body{
   margin-bottom: 1rem;
 }
 
-/*Styler og finner posisjon for elementene inni nav for å samsvare med skissen til oppgaven. */
+/*Styler og finner posisjon for elementene inni nav for å samsvare med skissen til oppgaven. 
 nav{
     background-color: var(--grey);
     padding-top: 1rem;
@@ -81,13 +81,13 @@ nav a{
   color: var(--white);
 }
 
-/*Endrer farge på det elementete som er aktivt   */
+/*Endrer farge på det elementete som er aktivt   
 #info .active{
     background-color: var(--white);
     color: var(--darkblue); 
 }
 
-/* Styler main med margin og farger */
+/* Styler main med margin og farger 
 main{
     margin: 5rem;
 }
@@ -98,7 +98,7 @@ main h2{
     color:var(--darkblue);
 }
 
-/* Gjør mobilversjon mer brukervennlig */
+/* Gjør mobilversjon mer brukervennlig 
 @media(max-width: 750px){
     nav ul{
         display: block;
